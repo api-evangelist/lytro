@@ -23,16 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lytro.png
 name: Lytro
-description: >-
-  Lytro was a light-field (plenoptic) imaging company founded in 2006 by Ren Ng
-  and based in Mountain View, California. It shipped the first consumer
-  light-field cameras (the Lytro and the Lytro Illum), which captured the entire
-  light field so images could be refocused after the fact, and later pivoted to
-  professional light-field capture for cinema and VR with Lytro Cinema and Lytro
-  Immerge. Backed by a16z, Greylock, NEA and Qualcomm Ventures, the company wound
-  down in March 2018 with much of its technology and talent moving to Google. It
-  is defunct and publishes no public developer program or API; the lytro.com
-  domain now 301-redirects to an unrelated light-field vendor (raytrix.de).
+description: Lytro was a light-field (plenoptic) imaging company founded in 2006 by Ren Ng and based in
+  Mountain View, California. It shipped the first consumer light-field cameras (the Lytro and the Lytro
+  Illum), which captured the entire light field so images could be refocused after the fact, and later
+  pivoted to professional light-field capture for cinema and VR with Lytro Cinema and Lytro Immerge. Backed
+  by a16z, Greylock, NEA and Qualcomm Ventures, the company wound down in March 2018 with much of its
+  technology and talent moving to Google. It is defunct and publishes no public developer program or API;
+  the lytro.com domain now 301-redirects to an unrelated light-field vendor (raytrix.de).
 url: https://raw.githubusercontent.com/api-evangelist/lytro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -42,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Camera
@@ -72,3 +69,4 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+x-status: defunct
